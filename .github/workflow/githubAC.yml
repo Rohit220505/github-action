@@ -7,5 +7,5 @@ jobs:
     runs=on: ubuntu-latest
 
     steps:
-      - name: Run a script
-        run: echo "Hello, World!"
+      - name: Welcome Message
+        run: echo "Welcome to the workflow!"
