@@ -2,9 +2,10 @@ name: My Workflow
 
 on: push
 
-my_job:
-  runs-on: ubuntu-latest
+jobs:
+  my-job:
+    runs-on: ubuntu-latest
 
-  steps:
-    - name: My workflow step
-      run: echo "Hello, World!"
+    steps:
+      - name: My workflow step
+        run: echo "Hello, World!"
